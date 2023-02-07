@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>This is list of new users</h1>
+<h2>You added the last one to the list</h2>
+<ul>
+    {% for i in list_of_users %}
+    <li> {{ i }} </li>
+    {% endfor %}
+</ul>
+{% endblock %}

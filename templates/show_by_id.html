@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>This is result where id is bigger</h1>
+<ul>
+    {% for i in result %}
+    <li> {{ i }} </li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<h2>You deleted user by id</h2>
+<p>The rest user list is</p>
+<ul>
+    {% for i in rest_list %}
+    <li> {{ i }} </li>
+    {% endfor %}
+</ul>
+{% endblock %}
